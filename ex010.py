@@ -5,4 +5,3 @@ re = float(input('digite o valor em R$ '))
 do = float(3.27)
 res = re / do
 print('O valor em real de R${:.2f} covertido em Dólar é de US${:.2f} dólares !'.format(re, res))
-
