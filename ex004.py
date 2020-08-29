@@ -1,3 +1,5 @@
+# comando .is
+
 n = input('Digite algo: ')
 print('O tipo primitivo é: ', type(n))
 print('{} só tem espaços? {}'.format(n, n.isspace()))
