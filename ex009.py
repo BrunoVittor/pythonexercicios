@@ -1,4 +1,4 @@
-# faça um programa que leia um número inteiro e mostre a sua taboada
+# faça um programa que leia um número inteiro e mostre a sua taboada.
 t = int(input('Digite um número para ver sua tabuada: '))
 
 print('-' * 12)
