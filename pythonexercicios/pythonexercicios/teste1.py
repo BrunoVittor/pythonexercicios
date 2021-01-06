@@ -135,7 +135,7 @@ def calcular():
     ( * ) Para Multiplição
     ( / ) Para Dvivisão 
     ( % ) Para Porcentagem 
-    ''')
+    '''
 '''
     # Bloco criado para receber o input do primeiro número Binário.
     while True:
@@ -222,7 +222,13 @@ Por favor aperte Y para sim ou N para não.'''
 calcular()'''
 
 
+'''
+Calculo de idade:
 
+from datetime import datetime
+idade = datetime.now().year - nascimento
+
+'''
 
 
 
