@@ -26,11 +26,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="adfb2c23-30e3-4638-afcb-bb698b8ba4fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pythonexercicios/ex095.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pythonexercicios/ex096.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pythonexercicios/ex097.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pythonexercicios/ex098.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pythonexercicios/ex099.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythonexercicios/ex100.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../pythonexercicios-20200918T162708Z-001/pythonexercicios/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../pythonexercicios-20200918T162708Z-001/pythonexercicios/.idea/misc.xml" beforeDir="false" />
@@ -1159,7 +1155,7 @@
       <change beforePath="$PROJECT_DIR$/../pythonexercicios-20200918T162708Z-001/pythonexercicios/venv/Scripts/pythonw.exe" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../pythonexercicios-20200918T162708Z-001/pythonexercicios/venv/pyvenv.cfg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pythonexercicios/ex094.py" beforeDir="false" afterPath="$PROJECT_DIR$/pythonexercicios/ex094.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonexercicios/ex098.py" beforeDir="false" afterPath="$PROJECT_DIR$/pythonexercicios/ex098.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pythonexercicios/teste1.py" beforeDir="false" afterPath="$PROJECT_DIR$/pythonexercicios/teste1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -1188,7 +1184,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Experience" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Python.ex099">
+  <component name="RunManager" selected="Python.ex100">
     <configuration name="ex096" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonexercicios" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1273,7 +1269,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="teste1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ex100" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonexercicios" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1285,7 +1281,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pythonexercicios/teste1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pythonexercicios/ex100.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -1296,11 +1292,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ex100" />
         <item itemvalue="Python.ex099" />
         <item itemvalue="Python.ex098" />
         <item itemvalue="Python.ex097" />
         <item itemvalue="Python.ex096" />
-        <item itemvalue="Python.teste1" />
       </list>
     </recent_temporary>
   </component>

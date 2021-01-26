@@ -3,6 +3,11 @@ for k, v in filme.items():
     print(f'O {k} é {v}')'''
 
 # função
+"""
+    Parâmetros opcionais:
+    
+    def soma(a=0, b=0, c=0): -> dessa forma não é nescessário informar todos os parâmetros exigidos pela função !
+"""
 '''
 def soma (a, b):
     valora = int(input('Digite o 1º valor: '))
@@ -10,6 +15,12 @@ def soma (a, b):
     s = valora + valorb
     print(s)
 '''
+
+# Escopo de variáveis:
+"""
+    No python escopo é onde variável vai existir e onde vai deixar de existir:
+"""
+
 
 # variável composta = Tuplas
 '''filme = {'titulo': 'Star wars', 'ano': 1977, 'diretor': 'George Lucas'}
@@ -43,6 +54,16 @@ print(f'Temos {totmai} maiores e {totmen} menores de idade.')'''
         print(f'{p[0]} é menor de idade')
         totmen += 1
 print(f'Temos {totmai} maiores e {totmen} menores de idade.')'''
+
+
+# Função para somar valores pares em uma lista
+'''
+def somaPar(lista):
+    soma = 0
+    for c in lista:
+        if c % 2 == 0:
+            soma += c
+'''
 
 # estrutura quer continuar ?
 ''' resp = str(input('Quer continuar [ S/N ]: ')).strip().upper()[0]
@@ -127,7 +148,8 @@ for c in range(0, 3):
             print(v, end=' ')
         print()'''
 
-'''# Calculadora criada para realizar operações aritiméticas em Binário.
+# Calculadora criada para realizar operações aritiméticas em Binário.
+'''
 def calcular():
     # input para receber os operadores.
     operacao = input(''''''
