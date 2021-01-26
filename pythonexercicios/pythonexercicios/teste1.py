@@ -16,13 +16,6 @@ def soma (a, b):
 for k, v in filme.items():
     print(f'O {k} é {v}')'''
 
-# função
-'''def soma (a, b):
-    valora = int(input('Digite o 1º valor: '))
-    valorb= int(input('Digite o 2º valor: '))
-    s = valora + valorb
-    print(s)'''
-
 # lista dentro de lista
 '''galera = list()
 dado = list()
@@ -42,7 +35,6 @@ for p in galera:
 print(f'Temos {totmai} maiores e {totmen} menores de idade.')'''
 
 # Estrutura criada em lista para definir maior e menor idade
-
 '''for p in galera:
     if p[1] >= 21:
         print(f'{p[0]} é maior de idade.')
@@ -58,8 +50,8 @@ print(f'Temos {totmai} maiores e {totmen} menores de idade.')'''
         break'''
 
 # estrutura maior e menor
-
-'''mai = men = 0
+'''
+mai = men = 0
 
 if len(princ) == 0:
     mai = men = temp[1]
@@ -68,6 +60,20 @@ else:
         mai = temp[1]
     if temp[1] < men:
         men = temp[1]'''
+
+# estrutura maior e menor 2.0
+'''
+def maior(*num):
+    cont = maior = 0
+    for valor in num:
+        print(f'{valor} ')
+        if cont == 0:
+            maior = valor
+        else:
+            if valor > maior:
+                maior = valor
+        cont += 1
+'''
 
 # Dicionários são identificados com { }
 '''dados = dict()
@@ -120,10 +126,6 @@ for c in range(0, 3):
         for v in e.values(): # aqui é definido o tipo de informação no caso values
             print(v, end=' ')
         print()'''
-
-
-
-
 
 '''# Calculadora criada para realizar operações aritiméticas em Binário.
 def calcular():
@@ -221,16 +223,46 @@ Por favor aperte Y para sim ou N para não.'''
 
 calcular()'''
 
-
 '''
 Calculo de idade:
 
 from datetime import datetime
+
 idade = datetime.now().year - nascimento
 
 '''
 
+'''
+# Estrutura básica de função
+
+def linha(msg): # msg é o parametro da função, ou seja, o conteúdo que será inserido quando a função for chamada
+    print('+-'*30)
+    print(msg)
+    print('+-'*30)
 
 
+linha('        Alunos         ') # conteúdo do parâmetro
+linha('        Professores       ')
+linha('        Funcionários        ')
 
+'''
+
+
+'''def soma(a, b):
+    print(f'A = {a} e B = {b}')
+    s = a + b
+    print(f'A soma de {a} + {b} = {s}')
+
+
+soma(5, 5)
+soma(9, 1)'''
+
+'''
+def cont(*valores): # desempacotamento
+    print(valores)
+
+
+cont(4, 8, 8, 4)
+cont(9, 6)
+'''
 
