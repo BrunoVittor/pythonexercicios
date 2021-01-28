@@ -1,6 +1,9 @@
-'''filme = {'titulo': 'Star wars', 'ano': 1977, 'diretor': 'George Lucas'}
+
+'''
+filme = {'titulo': 'Star wars', 'ano': 1977, 'diretor': 'George Lucas'}
 for k, v in filme.items():
-    print(f'O {k} é {v}')'''
+    print(f'O {k} é {v}')
+'''
 
 # função
 """
