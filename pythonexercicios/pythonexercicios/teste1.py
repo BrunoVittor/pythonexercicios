@@ -68,6 +68,35 @@ def somaPar(lista):
             soma += c
 '''
 
+# Função cálculo de notas interativa
+
+'''def notas(*n, sit=False):
+    """
+
+    @param n: várias notas
+    @param sit: situação de acordo com as médias
+    @return: dicionário contendo os campos apresentados
+    """
+    calc = dict()
+    calc['total'] = len(n)
+    calc['maior'] = max(n)
+    calc['menor'] = min(n)
+    calc['media'] = sum(n) / len(n)
+    if sit:
+        if calc['media'] >= 7:
+            calc['situação'] = str('BOA')
+        elif calc['media'] >= 5:
+            calc['situação'] = str('REGULAR')
+        else:
+            calc['situação'] = str('RUIM')
+    return calc
+
+
+# programa principal
+
+resposta = notas(5, 3, 2, sit=True)
+print(resposta)'''
+
 # estrutura quer continuar ?
 ''' resp = str(input('Quer continuar [ S/N ]: ')).strip().upper()[0]
     if resp in 'Nn':
