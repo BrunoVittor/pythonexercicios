@@ -26,10 +26,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="adfb2c23-30e3-4638-afcb-bb698b8ba4fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pythonexercicios/ex103.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pythonexercicios/ex104.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pythonexercicios/ex105.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pythonexercicios/ex106.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulos/numeros.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulos/uteis/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulos/uteis/numeros/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulos/uteis/strings/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythonexercicios/ex107/moeda.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythonexercicios/ex107/teste.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythonexercicios/ex108/moeda.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythonexercicios/ex108/teste.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythonexercicios/ex109/moeda.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythonexercicios/ex109/teste.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythonexercicios/ex110/moeda.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythonexercicios/ex110/teste.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythonexercicios/ex111/utilidadesCeV/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythonexercicios/ex111/utilidadesCeV/dado.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythonexercicios/ex111/utilidadesCeV/moeda.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythonexercicios/ex112/utilidadesCeV/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythonexercicios/ex112/utilidadesCeV/dado/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythonexercicios/ex112/utilidadesCeV/moeda/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythonexercicios/ex112/utilidadesCeV/teste.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../pythonexercicios-20200918T162708Z-001/pythonexercicios/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../pythonexercicios-20200918T162708Z-001/pythonexercicios/.idea/misc.xml" beforeDir="false" />
@@ -1157,10 +1172,7 @@
       <change beforePath="$PROJECT_DIR$/../pythonexercicios-20200918T162708Z-001/pythonexercicios/venv/Scripts/python.exe" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../pythonexercicios-20200918T162708Z-001/pythonexercicios/venv/Scripts/pythonw.exe" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../pythonexercicios-20200918T162708Z-001/pythonexercicios/venv/pyvenv.cfg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pythonexercicios.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pythonexercicios.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pythonexercicios/ex102.py" beforeDir="false" afterPath="$PROJECT_DIR$/pythonexercicios/ex102.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1185,12 +1197,18 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Experience" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pythonexercicios" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Python.ex106">
-    <configuration name="ex102" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pythonexercicios" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.teste (3)">
+    <configuration name="dado" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonexercicios" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1198,12 +1216,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pythonexercicios" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pythonexercicios/ex111/utilidadesCeV" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pythonexercicios/ex102.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pythonexercicios/ex111/utilidadesCeV/dado.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -1212,7 +1230,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ex103" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="moeda" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonexercicios" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1220,12 +1238,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pythonexercicios" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pythonexercicios/ex110" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pythonexercicios/ex103.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pythonexercicios/ex110/moeda.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -1234,7 +1252,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ex104" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="teste (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonexercicios" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1242,12 +1260,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pythonexercicios" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pythonexercicios/ex108" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pythonexercicios/ex104.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pythonexercicios/ex108/teste.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -1256,7 +1274,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ex105" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="teste (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonexercicios" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1264,12 +1282,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pythonexercicios" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pythonexercicios/ex110" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pythonexercicios/ex105.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pythonexercicios/ex110/teste.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -1278,7 +1296,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ex106" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="teste (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonexercicios" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1286,12 +1304,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pythonexercicios" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pythonexercicios/ex112/utilidadesCeV" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pythonexercicios/ex106.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pythonexercicios/ex112/utilidadesCeV/teste.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -1302,11 +1320,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ex106" />
-        <item itemvalue="Python.ex105" />
-        <item itemvalue="Python.ex104" />
-        <item itemvalue="Python.ex103" />
-        <item itemvalue="Python.ex102" />
+        <item itemvalue="Python.teste (3)" />
+        <item itemvalue="Python.dado" />
+        <item itemvalue="Python.teste (2)" />
+        <item itemvalue="Python.moeda" />
+        <item itemvalue="Python.teste (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -1322,7 +1340,11 @@
       <workItem from="1612190044863" duration="635000" />
       <workItem from="1612191162189" duration="3512000" />
       <workItem from="1612269625164" duration="84000" />
-      <workItem from="1612269723985" duration="1846000" />
+      <workItem from="1612269723985" duration="16958000" />
+      <workItem from="1612353582250" duration="1396000" />
+      <workItem from="1612375148345" duration="3553000" />
+      <workItem from="1612439335465" duration="3129000" />
+      <workItem from="1612443965044" duration="1973000" />
     </task>
     <servers />
   </component>
@@ -1342,7 +1364,15 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/pythonexercicios$moeda.coverage" NAME="moeda Coverage Results" MODIFIED="1612292834212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonexercicios/ex110" />
     <SUITE FILE_PATH="coverage/pythonexercicios$ex106.coverage" NAME="ex106 Coverage Results" MODIFIED="1612270309373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonexercicios" />
+    <SUITE FILE_PATH="coverage/pythonexercicios$numeros.coverage" NAME="numeros Coverage Results" MODIFIED="1612280568872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modularizacao" />
+    <SUITE FILE_PATH="coverage/pythonexercicios$teste.coverage" NAME="teste Coverage Results" MODIFIED="1612287971345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonexercicios/ex107" />
+    <SUITE FILE_PATH="coverage/pythonexercicios$teste__1_.coverage" NAME="teste (1) Coverage Results" MODIFIED="1612288960546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonexercicios/ex108" />
+    <SUITE FILE_PATH="coverage/pythonexercicios$numeros__1_.coverage" NAME="numeros (1) Coverage Results" MODIFIED="1612281723877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modulos" />
+    <SUITE FILE_PATH="coverage/pythonexercicios$teste__2_.coverage" NAME="teste (2) Coverage Results" MODIFIED="1612294830332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonexercicios/ex110" />
     <SUITE FILE_PATH="coverage/pythonexercicios$ex105.coverage" NAME="ex105 Coverage Results" MODIFIED="1612186497540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonexercicios" />
+    <SUITE FILE_PATH="coverage/pythonexercicios$dado.coverage" NAME="dado Coverage Results" MODIFIED="1612378531574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonexercicios/ex111/utilidadesCeV" />
+    <SUITE FILE_PATH="coverage/pythonexercicios$teste__3_.coverage" NAME="teste (3) Coverage Results" MODIFIED="1612447087933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonexercicios/ex112/utilidadesCeV" />
   </component>
 </project>
