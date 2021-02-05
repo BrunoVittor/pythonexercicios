@@ -1,4 +1,3 @@
-
 '''
 filme = {'titulo': 'Star wars', 'ano': 1977, 'diretor': 'George Lucas'}
 for k, v in filme.items():
@@ -23,7 +22,6 @@ def soma (a, b):
 """
     No python escopo é onde variável vai existir e onde vai deixar de existir:
 """
-
 
 # variável composta = Tuplas
 '''filme = {'titulo': 'Star wars', 'ano': 1977, 'diretor': 'George Lucas'}
@@ -57,7 +55,6 @@ print(f'Temos {totmai} maiores e {totmen} menores de idade.')'''
         print(f'{p[0]} é menor de idade')
         totmen += 1
 print(f'Temos {totmai} maiores e {totmen} menores de idade.')'''
-
 
 # Função para somar valores pares em uma lista
 '''
@@ -301,7 +298,6 @@ linha('        Funcionários        ')
 
 '''
 
-
 '''def soma(a, b):
     print(f'A = {a} e B = {b}')
     s = a + b
@@ -320,3 +316,21 @@ cont(4, 8, 8, 4)
 cont(9, 6)
 '''
 
+# Estrutura de tratamento de erros !!!
+
+'''try:
+    a = int(input('Digite um valor: '))
+    b = int(input('Digite um valor: '))
+    r = a / b
+except (ValueError, TypeError):
+    print('Tivemos um problema com os tipos de dados que você digitou.')
+except ZeroDivisionError:
+    print('Não é possível dividir um número por zero!')
+except KeyboardInterrupt:
+    print('O usuário não informou os dados!')
+except Exception as erro:
+    print(f'O erro encontrado foi {erro.__cause__}')
+else:
+    print(f'O resultado é {r:.1f}')
+finally:
+    print('Volte sempre!')'''
